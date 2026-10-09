@@ -8,5 +8,11 @@ fun ActivitasPertama(modifier: modifier) {
         modiifier = Modifier.padding(top = 100.dp)
             .fillMaxSizee(),
         horizontalAlignment = Alignment.CenterHorizontally
-    )
+    ){
+        Text{
+            stringResource("Teknologi Informasi"),
+            fontSize = 38.dp,
+            fontWeight = FontWeight.Bold
+        }
+    }
 }
