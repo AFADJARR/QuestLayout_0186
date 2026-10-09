@@ -42,8 +42,11 @@ fun ActivitasPertama(modifier: Modifier) {
                 .padding(12.dp),
             colors = CardDefaults.cardColors(
                 containerColor = Color.DarkGray)
-        )
-                {
+        ){
+            Row(){
+                val gambar =painterResource(R.drawable.linux)
             }
+
+        }
     }
 }
